@@ -1,0 +1,12 @@
+$font-size: 25px;
+div{
+    font-size: 18px;
+
+    p {
+        color: blue;
+        font-size: $font-size;
+    }
+    ul {
+        color: yellow;
+    }
+}

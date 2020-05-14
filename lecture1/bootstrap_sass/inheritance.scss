@@ -1,0 +1,22 @@
+%message {
+    font-family: sans-serif;
+    font-size: large;
+    
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+}
+
+.success {
+    @extend %message;
+    background-color: rgb(0, 128, 0);
+}
+.warning {
+    @extend %message;
+    background-color: rgb(255, 255, 0);
+}
+.error {
+    @extend %message;
+    background-color: rgb(255, 0, 0);
+}
